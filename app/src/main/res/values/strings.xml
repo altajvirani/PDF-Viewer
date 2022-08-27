@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PDF Viewer</string>
+    <string name="t1">Welcome!</string>
+    <string name="t2">Please select an option.</string>
+    <string name="view_in_webview">View in WebView</string>
+    <string name="view_from_assets">View from Assets</string>
+    <string name="view_from_storage">View from Storage</string>
+    <string name="view_from_internet">View from Internet</string>
+</resources>

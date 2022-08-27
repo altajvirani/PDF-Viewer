@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:screenOrientation="nosensor"
+    android:configChanges="keyboardHidden|orientation"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitoblack"
+        android:text="@string/t1"
+        android:textColor="@color/darkred"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonWebView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.280" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitoblack"
+        android:text="@string/t2"
+        android:textColor="@color/darkred"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonWebView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/buttonWebView"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b1"
+        android:fontFamily="@font/nunitoextrabold"
+        android:text="@string/view_in_webview"
+        android:textAllCaps="false"
+        android:textColor="@color/darkblue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.430" />
+
+    <Button
+        android:id="@+id/buttonAssets"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/b2"
+        android:fontFamily="@font/nunitoextrabold"
+        android:text="@string/view_from_assets"
+        android:textAllCaps="false"
+        android:textColor="@color/darkbrown"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonWebView"
+        app:layout_constraintStart_toStartOf="@+id/buttonWebView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.530" />
+
+    <Button
+        android:id="@+id/buttonStorage"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b3"
+        android:fontFamily="@font/nunitoextrabold"
+        android:text="@string/view_from_storage"
+        android:textAllCaps="false"
+        android:textColor="@color/darkgreen"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAssets"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonAssets"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.630" />
+
+    <Button
+        android:id="@+id/buttonInternet"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b4"
+        android:fontFamily="@font/nunitoextrabold"
+        android:text="@string/view_from_internet"
+        android:textAllCaps="false"
+        android:textColor="@color/violet"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonStorage"
+        app:layout_constraintStart_toStartOf="@+id/buttonStorage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.730" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
