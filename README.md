@@ -11,15 +11,15 @@ This project contains a sample app that shows how to open a PDF file in Android 
 * Download file from the internet using the PRDownloader library and then open that file using the AndroidPdfViewer library: This allows the user to view a PDF file over the internet after downloading it by providing the URL of the document.
 
 ## Snapshots
-Splash Screen
+Splash Screen<br>
 ![image](https://user-images.githubusercontent.com/89018772/192088644-dc7facd8-3894-4394-b57a-cf21c683838d.png)
-Main Activity
+Main Activity<br>
 ![image](https://user-images.githubusercontent.com/89018772/192088650-8ee4f1b8-eb38-4adc-b806-b46d4f1715fb.png)
-Web View Activity
+Web View Activity<br>
 ![image](https://user-images.githubusercontent.com/89018772/192088656-237f2c94-421f-4785-aa93-4cd7a265b0cd.png)
-View from Storage
+View from Storage<br>
 ![image](https://user-images.githubusercontent.com/89018772/192088659-4d9d502c-ad8f-40dd-8132-7a5182196f93.png)
 ![image](https://user-images.githubusercontent.com/89018772/192088660-6f249649-4667-4a63-8753-96f0e2970298.png)
-View from Asset
+View from Asset<br>
 ![image](https://user-images.githubusercontent.com/89018772/192088665-e4e93677-7728-40fa-9de9-39e66fa9088c.png)
 
