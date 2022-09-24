@@ -1,8 +1,11 @@
 # Open PDF File Android Example - An example project to demonstrate how to open a PDF file in Android programmatically
 
+   The aim of this project is to develop an Android application for viewing (reading) a PDF File (Portable Document Format) using Kotlin Programming Language. “PDF Viewer” app provides an environment to open PDF documents the feature of viewing a PDF file in WebView, from Internal Storage, Asset and over the Internet. “PDF Viewer” is an independent standalone application which can easily run an any android platform without required prerequisites or plugins. In PDF viewer we can see the documents directly. Hence, it is an open platform for viewing a pdf document.
+   The main purpose of this application is to let the user view (read) a PDF document at an instance without use of any desktop office packages. Here we can view a PDF through an Android based mobile phone at anywhere with the use of this application.
+
 ## About this Project  
 This project contains a sample app that shows how to open a PDF file in Android application programmatically. We will build the following in this project:  
-* Open PDF in WebView
-* Open PDF from the assets folder using the AndroidPdfViewer library
-* Open PDF from the phone storage using the AndroidPdfViewer library
-* Download file from the internet using the PRDownloader library and then open that file using the AndroidPdfViewer library
+* Open PDF in WebView: WebView is a view that display web pages inside your application. WebView makes turns your application to a web application. The WebView class is an extension of Android's View class that allows to display web pages as a part of your activity layout. So, we can use WebView to load a PDF inside the app by providing the URL of the PDF.
+* Open PDF from the assets folder using the AndroidPdfViewer library: When a PDF file is opened, it has to be opened by an external application such as Drive or another app which can render PDF. In order to do that the file has to be copied to a public location first and then an Intent to open it has to be created. Assets folder helps to bundle file with the application such as user guide, etc.
+* Open PDF from the phone storage using the AndroidPdfViewer library: Lets the user to read a PDF from local storage by providing the option to select a PDF from local storage (internal storage).
+* Download file from the internet using the PRDownloader library and then open that file using the AndroidPdfViewer library: This allows the user to view a PDF file over the internet after downloading it by providing the URL of the document.
