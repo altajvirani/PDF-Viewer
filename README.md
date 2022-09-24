@@ -18,7 +18,7 @@ Main Activity<br>
 Web View Activity<br>
 ![image](https://user-images.githubusercontent.com/89018772/192088656-237f2c94-421f-4785-aa93-4cd7a265b0cd.png)<br>
 View from Storage<br>
-![image](https://user-images.githubusercontent.com/89018772/192088659-4d9d502c-ad8f-40dd-8132-7a5182196f93.png)<br>
+![image](https://user-images.githubusercontent.com/89018772/192088659-4d9d502c-ad8f-40dd-8132-7a5182196f93.png)
 ![image](https://user-images.githubusercontent.com/89018772/192088660-6f249649-4667-4a63-8753-96f0e2970298.png)<br>
 View from Asset<br>
 ![image](https://user-images.githubusercontent.com/89018772/192088665-e4e93677-7728-40fa-9de9-39e66fa9088c.png)<br>
