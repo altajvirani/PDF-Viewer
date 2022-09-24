@@ -1,4 +1,4 @@
-# Open PDF File Android Example - An example project to demonstrate how to open a PDF file in Android programmatically
+# PDF Viewer App in Kotlin
 
    The aim of this project is to develop an Android application for viewing (reading) a PDF File (Portable Document Format) using Kotlin Programming Language. “PDF Viewer” app provides an environment to open PDF documents the feature of viewing a PDF file in WebView, from Internal Storage, Asset and over the Internet. “PDF Viewer” is an independent standalone application which can easily run an any android platform without required prerequisites or plugins. In PDF viewer we can see the documents directly. Hence, it is an open platform for viewing a pdf document.
    The main purpose of this application is to let the user view (read) a PDF document at an instance without use of any desktop office packages. Here we can view a PDF through an Android based mobile phone at anywhere with the use of this application.
@@ -9,3 +9,17 @@ This project contains a sample app that shows how to open a PDF file in Android 
 * Open PDF from the assets folder using the AndroidPdfViewer library: When a PDF file is opened, it has to be opened by an external application such as Drive or another app which can render PDF. In order to do that the file has to be copied to a public location first and then an Intent to open it has to be created. Assets folder helps to bundle file with the application such as user guide, etc.
 * Open PDF from the phone storage using the AndroidPdfViewer library: Lets the user to read a PDF from local storage by providing the option to select a PDF from local storage (internal storage).
 * Download file from the internet using the PRDownloader library and then open that file using the AndroidPdfViewer library: This allows the user to view a PDF file over the internet after downloading it by providing the URL of the document.
+
+## Snapshots
+Splash Screen
+![image](https://user-images.githubusercontent.com/89018772/192088644-dc7facd8-3894-4394-b57a-cf21c683838d.png)
+Main Activity
+![image](https://user-images.githubusercontent.com/89018772/192088650-8ee4f1b8-eb38-4adc-b806-b46d4f1715fb.png)
+Web View Activity
+![image](https://user-images.githubusercontent.com/89018772/192088656-237f2c94-421f-4785-aa93-4cd7a265b0cd.png)
+View from Storage
+![image](https://user-images.githubusercontent.com/89018772/192088659-4d9d502c-ad8f-40dd-8132-7a5182196f93.png)
+![image](https://user-images.githubusercontent.com/89018772/192088660-6f249649-4667-4a63-8753-96f0e2970298.png)
+View from Asset
+![image](https://user-images.githubusercontent.com/89018772/192088665-e4e93677-7728-40fa-9de9-39e66fa9088c.png)
+
