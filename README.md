@@ -1,6 +1,6 @@
 # PDF Viewer App in Kotlin
 
-   The aim of this project is to develop an Android application for viewing (reading) a PDF File (Portable Document Format) using Kotlin Programming Language. “PDF Viewer” app provides an environment to open PDF documents the feature of viewing a PDF file in WebView, from Internal Storage, Asset and over the Internet. “PDF Viewer” is an independent standalone application which can easily run an any android platform without required prerequisites or plugins. In PDF viewer we can see the documents directly. Hence, it is an open platform for viewing a pdf document.
+   An Android application for viewing (reading) a PDF File (Portable Document Format) using Kotlin Programming Language. “PDF Viewer” app provides an environment to open PDF documents the feature of viewing a PDF file in WebView, from Internal Storage, Asset and over the Internet. “PDF Viewer” is an independent standalone application which can easily run an any android platform without required prerequisites or plugins. In PDF viewer we can see the documents directly. Hence, it is an open platform for viewing a pdf document.
    The main purpose of this application is to let the user view (read) a PDF document at an instance without use of any desktop office packages. Here we can view a PDF through an Android based mobile phone at anywhere with the use of this application.
 
 ## About this Project  
